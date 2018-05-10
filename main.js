@@ -7,4 +7,6 @@ var octal = 484;
 var nome = "Rogério";
 var carro = "Corolla";
 var text = "<p> Nome: " + nome + " </p>\n            <p> Carro: " + carro + "</p>";
+var array1 = ["João", "Maria", "Pedro", "Ana"];
+var array2 = ["João", "Maria", "Pedro", "Ana"];
 document.body.innerHTML = text;

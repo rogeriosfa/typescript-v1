@@ -11,4 +11,7 @@ var carro: string = "Corolla";
 var text = `<p> Nome: ${nome} </p>
             <p> Carro: ${carro}</p>`;
 
+var array1: string[] = ["João", "Maria", "Pedro", "Ana"];
+var array2: Array<string> = ["João", "Maria", "Pedro", "Ana"];
+
 document.body.innerHTML = text;
