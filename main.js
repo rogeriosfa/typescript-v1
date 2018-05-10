@@ -1,18 +1,10 @@
-function getHello(name) {
-    return "Hello " + name;
-}
-var name_ = "Rogério";
-document.body.innerHTML = getHello(name_);
-var Car = /** @class */ (function () {
-    function Car() {
-    }
-    return Car;
-}());
-var getCar = function (car) {
-    console.log(car.brand, car.name, car.power);
-};
-var Camaro = new Car();
-Camaro.name = 'cararo rogério';
-Camaro.brand = 'GM';
-Camaro.power = 45;
-getCar(Camaro);
+var teste = false;
+var numero = 1;
+var decimal = 5.4;
+var hex = 0xf00d;
+var binary = 10;
+var octal = 484;
+var nome = "Rogério";
+var carro = "Corolla";
+var text = "<p> Nome: " + nome + " </p>\n            <p> Carro: " + carro + "</p>";
+document.body.innerHTML = text;

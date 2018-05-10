@@ -19,6 +19,6 @@ var Camaro = new Car();
 //Camaro.name = 'cararo rogério';
 Camaro.brand = 'GM';
 //Camaro.age = 2018;
-Camaro.power = 45;
+Camaro.power = 46;
 
 getCar(Camaro);
