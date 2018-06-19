@@ -17,7 +17,6 @@ module App {
         var node = document.createElement('li');
         var text = document.createTextNode(books[i].name + ' - ' + books[i].author + ' - ' + 'pg' + books[i].pagination + '  $' + books[i].value);
         node.appendChild(text);
-        document
         document.getElementById('list').appendChild(node);
-    }
+    }   
 }
