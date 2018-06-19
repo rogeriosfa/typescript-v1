@@ -40,5 +40,4 @@ function testeVarLet(i: boolean) {
   return a;
 }
 
-
 console.log(testeVarLet(true));
